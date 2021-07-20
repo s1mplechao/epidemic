@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="coronavirus:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/coronavirus_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="coronavirus" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="c3p0-0.9.5.5.jar" module-name="coronavirus" />
+          <element id="library" level="module" name="druid-1.1.14.jar" module-name="coronavirus" />
+          <element id="library" level="module" name="jstl-1.2.jar" module-name="coronavirus" />
+          <element id="library" level="module" name="mchange-commons-java-0.2.19.jar" module-name="coronavirus" />
+          <element id="library" level="module" name="mysql-connector-java-8.0.18.jar" module-name="coronavirus" />
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="coronavirus/web/Web" />
+    </root>
+  </artifact>
+</component>
